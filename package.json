@@ -9,7 +9,7 @@
     "preview": "vite preview",
     "clean": "rm -rf dist",
     "lint": "tsc --noEmit",
-    "deploy:cloudflare": "wrangler pages deploy dist"
+    "deploy:cloudflare": "wrangler pages deploy dist --project-name=aegis-architect"
   },
   "dependencies": {
     "@google/genai": "^1.29.0",
